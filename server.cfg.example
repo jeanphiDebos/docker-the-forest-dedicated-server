@@ -8,7 +8,7 @@ serverGamePort 27015
 // Query Communication Port - Note: If you have a router you will need to open this port.
 serverQueryPort 27016
 // Server display name
-serverName jammsen-docker-generated
+serverName Balade en Foret
 // Maximum number of players
 serverPlayers 8
 // Enable VAC (Valve Anti-cheat System at the server. Must be set off or on
@@ -50,6 +50,6 @@ realisticPlayerDamage off
 // Allows defining a custom folder for save slots, leave empty to use the default location
 saveFolderPath
 // Target FPS when no client is connected
-targetFpsIdle 0
+targetFpsIdle 5
 // Target FPS when there is at least one client connected
-targetFpsActive 0
+targetFpsActive 60
